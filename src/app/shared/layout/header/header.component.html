@@ -1,0 +1,32 @@
+<header class="header">
+  <div class="header___title">
+    <a [routerLink]="['/']"> <h1>Bellefu</h1></a>
+  </div>
+  <nav class="header__nav">
+    <ul class="navigation">
+      <li class="navigation__link">
+        <a
+          [routerLink]="['/about-us']"
+          routerLinkActive="active-link "
+          [routerLinkActiveOptions]="{ exact: true }"
+          >About Us</a
+        >
+      </li>
+      <li class="navigation__link">
+        <a [routerLink]="['/our-services']" routerLinkActive="active-link"
+          >Service</a
+        >
+      </li>
+      <li class="navigation__link">
+        <a [routerLink]="['/our-products']" routerLinkActive="active-link"
+          >Products</a
+        >
+      </li>
+      <li class="navigation__link">
+        <a [routerLink]="['/contact-us']" routerLinkActive="active-link"
+          >Contact Us</a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>

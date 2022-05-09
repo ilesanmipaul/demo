@@ -1,0 +1,37 @@
+.header {
+  background: coral;
+  height: 6.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.header___title h1 {
+  font-size: 5rem;
+}
+.header___title a {
+  text-decoration: none;
+  color: #fff;
+}
+.header .header__nav {
+  display: inline-block;
+}
+.navigation {
+  display: flex;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.navigation__link {
+  margin-left: 3rem;
+  list-style: none;
+}
+
+.navigation__link a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+.active-link {
+  color: blue;
+}

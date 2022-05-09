@@ -1,0 +1,12 @@
+.menu-title {
+  font-size: 3rem;
+}
+
+.menu-list {
+  width: 100%;
+  display: flex;
+  flex-basis: 20%;
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+  justify-content: space-between;
+}

@@ -1,0 +1,12 @@
+.menu {
+  background-color: #fff;
+  border-radius: 1rem;
+  margin: 1.5rem;
+}
+.menu img {
+  width: 100%;
+  height: 20rem;
+}
+.menu-details {
+  padding: 2rem;
+}
